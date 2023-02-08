@@ -1,0 +1,27 @@
+* {
+    font-family: 'Londrina Shadow', cursive;
+    font-style: italic;
+}
+
+button {
+    color: white;
+    height: 40px;
+    width:100px;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+div {
+    width: 45vw;
+    margin-left: 1vw;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    div {
+        width: 90vw;
+        
+    }
+}

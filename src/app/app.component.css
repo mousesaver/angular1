@@ -1,0 +1,19 @@
+* {
+    font-family: 'Londrina Shadow', cursive;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+    div {
+        display: block;
+        
+    }
+}
